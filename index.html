@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Ryan Terry</title>
+</head>
+<style>
+    video { 
+        width: 100%; 
+        height: 100%;  
+        display: flex;  
+        justify-content: center; 
+        align-items: center;
+    }
+    h1.over-vid {
+        color:white;
+        position:absolute;
+        top:0;
+        text-shadow: 10px black;
+    }
+</style>
+<body>
+    <div class="video container-fluid">
+    <div class="row">
+        <video id="bgvid" preload playsinline autoplay muted loop>
+            <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+            <source src="Alaska_Cinematography.webmhd.webm" type="video/webm">
+        </video>
+    </div>
+    <h1 class="over-vid">Ryan is the man</h1>
+    </div>
+    
+    
+</body>
+</html>
